@@ -18,8 +18,9 @@ console.log( " \t\r\n" == 0 );
 console.log( ' ' == 0 );
 
 O que não faz necessariamente muito sentido.
+<br>
 
-(Você pode testar tudo isso indo no seu navegador, clicando com o botão direito, escolhendo a opção “Inspecionar” e a aba “Console”. Nessa aba, basta copiar e colar cada uma das linhas acima para confirmar que todas realmente retornam true).
+## Desafio:
 
 Sendo assim, a sua tarefa de hoje é reescrever o código abaixo de maneira que ele imprima as informações de maneira correta, que faça sentido e sem erros:
 
