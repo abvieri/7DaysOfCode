@@ -1,4 +1,4 @@
-#7DaysOfCode - Lógica JS 2/7: 👩🏽‍💻 Variáveis
+# 7DaysOfCode - Lógica JS 2/7: 👩🏽‍💻 Variáveis
 
 Sabe quando você se cadastra em um site e, logo em seguida, quando faz o seu login, ele já te chama pelo seu nome? É isso que você vai fazer no desafio de hoje!
 
@@ -24,7 +24,7 @@ No final, o sistema vai exibir a mensagem:
 
 Note que cada informação entre [ ] é uma das respostas dadas pela pessoa.
 
-#EXERCÍCIO OPCIONAL
+## EXERCÍCIO OPCIONAL
 Se você quiser se aprofundar no assunto de hoje, eu tenho mais um exercício para você.
 
 Mas ele é 100% opcional.
