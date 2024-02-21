@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button onclick="Iniciar()">Iniciar</button>
+
+    <script>
+
+        function Iniciar() {
+            const varNome = prompt("Qual o seu nome?");
+            const varIdade = prompt("Quantos anos você tem?");
+            const varLinguagem = prompt("Qual linguagem de programação você está estudando?");
+            alert("Olá " + varNome + ", você tem " + varIdade + " anos e já está aprendendo " + varLinguagem + "!");
+
+
+            const varResposta = prompt("Você gosta de estudar " + varLinguagem + "? Responda com o número 1 para SIM ou 2 para NÃO.");
+            switch (varResposta) {
+                case "1":
+                    alert("Muito bom! Continue estudando e você terá muito sucesso.");
+                    break;
+                case "2":
+                    alert("Ahh que pena... Já tentou aprender outras linguagens?");
+                    break;
+                default:
+                    alert("Insira um valor válido! Ladrão");
+                    break;
+            }
+        }
+    </script>
+</body>
+
+</html>
